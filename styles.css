@@ -1,20 +1,29 @@
-h1 {
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+}
+
+
+/* h1 {
     font-size: 84px;
 }
 
-p {
+/* p {
     font-size: 24px;
     color: brown;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-}
+} */
 
 body {
     /* background-color: aqua; */
 }
 
 .item {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: rgb(19, 170, 5);
 }
 
@@ -79,9 +88,9 @@ body {
     /* align-items:center; */
    /* flex-direction: column; */
 
-    
-   
- 
+
+
+
 }
 .caja3 {
     background-color: rgb(255, 0, 195);
@@ -116,8 +125,8 @@ body {
     @media(max-width: 576px) {
         background-color:rgb(17, 0, 255) ;
         color: #ffffff;
-    
-        
+
+
     }
 }
 
@@ -131,8 +140,8 @@ body {
     @media(min-width: 576px) {
        background-color: black;;
     }
-            
-} 
+
+}
 
 .contenedorNav {
     display: flex;
@@ -142,7 +151,6 @@ body {
        display: flex;
        flex-direction: column;
     }
-        
+
     }
    
-
